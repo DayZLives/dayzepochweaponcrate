@@ -4,7 +4,7 @@
 private["_crate","_pos","_centre","_rad","_elev","_wepsItem","_magsFood","_magsDrink","_magsMedix","_magsItem","_magsClothes","_backpacks","_wep","_wepName","_wepMod","_wepPic","_wepClass","_wepScope","_wepKey"];
 private["_wepStrScope","_wepAmmo","_wepMuzzles","_pClass","_wepArray","_wepTmpArray","_muzzleArray","_rndNum","_wepFilter","_wepSelect","_ammoArray","_cfgweapons","_rndAmmo","_rndMuzzle","_muzzleScope","_itemPcent"];
 //diag_log "AXELOG:BOX STARTED";
-AXE_fnc_findNestedElement = compile preprocessFileLineNumbers "\z\addons\dayz_server\modules\dayZDM\fn_findNestedElement.sqf";
+AXE_fnc_findNestedElement = compile preprocessFileLineNumbers "fn_findNestedElement.sqf";
 _centre = DZE_DMLocation;
 _rad = _this select 0;
 _elev = 6;
